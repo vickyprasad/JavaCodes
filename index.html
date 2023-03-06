@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="grocerylink" method="post">
+ 	<h1>Grocery Items</h1>
+ 	<table border="1">
+ 		<tr>
+ 			<th>Name   </th>
+ 			<th>Price in per/kg</th>
+  		</tr>
+  		<tr>
+  			<td>Mong Dal</td>
+  			<td>100</td>
+  		</tr>
+  		<tr>
+  			<td>Rice</td>
+  			<td>60</td>
+  		</tr>
+  		<tr>
+  			<td>Wheat</td>
+  			<td>25</td>
+  		</tr>
+ 	
+ 	</table>
+ 	
+ 	<br>
+ 	<br>
+ 	
+ <label>Select Grocery Item</label>
+ 	
+    <select name="Grocery" id="Grocery">
+        <option value=""></option>
+        <option value="MongDal">Mong Dal</option>
+        <option value="Rice">Rice</option>
+        <option value="Wheat">Wheat</option>
+    </select>
+    
+    <br>
+    
+    <label>Enter Quantity</label>
+    <input type="number" name="quantity" placeholder="Enter Quantity"> <br>
+   
+   <label>Select Delivery Type</label>
+    <select name="Delivery" id="Delivery">
+        <option value=""></option>
+        <option value="regular">Regular</option>
+        <option value="quick">Quick</option>
+        
+    </select>
+     <br>
+    <input type="SUBMIT" value="submit" name="submit">
+    
+
+</form>
+</body>
+</html>
